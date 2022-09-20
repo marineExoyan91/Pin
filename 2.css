@@ -1,0 +1,339 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.glob_div{
+	width: 100%;
+	height: 77px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	position: fixed;
+	z-index: 9;
+	border-radius: 10px;
+	background: #241F57;
+}
+.foto{
+	width: 123px;
+	height: 90px;
+	margin-left: -40px;
+}
+.img{
+	width: 50px;
+	height: 50px;
+	margin-left: 48px;
+	margin-top: 9px;
+}
+.main{
+	width: 870px;
+	height: 53px;
+	margin-left: -109px;
+}
+.icon{
+	width: 174px;
+	height: 26px;
+	margin-left: -154px;
+}
+.erkir{
+	width: 100px;
+	height: 135px;
+	margin-top: 83px;	
+	margin-left: -104px;
+}
+#bn{
+	width: 100px;
+	height: 40px;
+}
+.country{
+	width: 90px;
+	height: 40px;
+	border-radius: 50px;
+	cursor: pointer;
+	background: #FFB47A;
+	border: 1px solid black;
+	display: flex;
+}
+.country:hover{
+	background: black;
+}
+.drosh{
+	width: 28px;
+	height: 17px;
+	margin-left: 9px;
+	margin-top: 11px;
+}
+.hay{
+	color: white;
+	margin-top: 11px;
+	margin-left: 5px;
+}
+#down{
+	color: white;
+	margin-left: 1px;
+	margin-top: 10px;
+	font-size: 18px;
+	cursor: pointer;
+}
+#none{
+	width: 100px;
+	height: 40px;
+	display: none;
+}
+.eng{
+	width: 90px;
+	height: 40px;
+	border-radius: 50px;
+	cursor: pointer;
+	background: #FFB47A;
+	border: 1px solid black;
+	display: flex;
+}
+.eng:hover{
+	background: black;
+}
+.flag{
+	width: 28px;
+	height: 17px;
+	margin-left: 9px;
+	margin-top: 11px;
+}
+.engl{
+	color: white;
+	margin-top: 11px;
+	margin-left: 7px;
+}
+#nerqev{
+	color: white;
+	margin-top: 10px;
+	font-size: 18px;
+	cursor: pointer;
+	margin-left: 1px;
+}
+#blo{
+	width: 100px;
+	height: 40px;
+	display: none;
+}
+.ru{
+	width: 90px;
+	height: 40px;
+	border-radius: 50px;
+	cursor: pointer;
+	background: #FFB47A;
+	border: 1px solid black;
+	display: flex;
+}
+.ru:hover{
+	background: black;
+}
+.dr{
+	width: 28px;
+	height: 17px;
+	margin-left: 9px;
+	margin-top: 10px;
+}
+.rus{
+	color: white;
+	margin-top: 11px;
+	margin-left: 7px;
+}
+#nerq{
+	color: white;
+	margin-top: 10px;
+	font-size: 18px;
+	cursor: pointer;
+	margin-left: 1px;
+}
+.pi{
+	color: #FFB47A;
+	font-size: 12px;
+	margin-top: -10px;
+	cursor: pointer;
+	margin-left: 55px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.qa{
+	text-decoration: none;
+	color: #FFB47A;
+}
+.ul{
+	display: flex;
+	list-style: none;
+}
+.orange a{
+	color: #FFA985;
+	text-decoration: none;
+	margin-left: 20px;
+	font-size: 15px;
+}
+.orange a:hover{
+	color: grey;
+}
+ul{
+	display: flex;
+	list-style: none;
+	margin-left: 12px;
+}
+li a{
+	color: #4960C0;
+	margin-left: 8px;
+	margin-top: 10px;
+	font-size: 15px;
+	color: white;
+}
+.background{
+	width: 100%;
+	height: 2190px;
+	position: absolute;
+	background: url(img/notebook.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+.next{
+	width: 124px;
+	height: 50px;
+	margin-top: 200px;
+	margin-left: 186px;
+	border-radius: 50px;
+	border: none;
+	display: flex;
+	cursor: pointer;
+}
+#left{
+	width: 127px;
+	height: 112px;
+	margin-left: -58px;
+	margin-top: -31px
+}
+.prior{
+	color: #F2BC94;
+	font-size: 15px;
+	margin-left: 40px;
+	margin-top: -67px;
+}
+.das{
+	text-decoration: none;
+}
+.two_div{
+	width: 70%;
+	height: 520px;
+	margin: auto;
+	margin-top: 30px;
+	display: flex;
+}
+.first_div{
+	width: 60%;
+	height: 500px;
+	background: #F2BC94;
+	border-radius: 20px;
+	opacity: 0.9;
+}
+.sistem{
+	margin-left: 30px;
+	margin-top: 40px;
+	font-size: 18px;
+}
+.this{
+	margin-left: 30px;
+	margin-top: 50px;
+	font-size: 15px;
+}
+.lesson{
+	margin-left: 30px;
+	margin-top: 30px;
+	font-size: 15px;
+}
+.lesson_time{
+	margin-left: 30px;
+	margin-top: 30px;
+	font-size: 15px;
+}
+.second_div{
+	width: 60%;
+	height: 500px;
+	background: #D4D4D4;
+	margin-left: 20px;
+	border-radius: 20px;
+	opacity: 0.9;
+}
+.kripografia{
+	margin-left: 30px;
+	margin-top: 40px;
+	font-size: 18px;
+}
+.type{
+	margin-left: 30px;
+	margin-top: 50px;
+	font-size: 15px;
+}
+.naxord{
+	animation: fadeIn 2s;
+}
+@keyframes fadeIn{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}
+.two_div{
+	animation: fadeIn 2s;
+}
+.this_lesson{
+	margin-left: 30px;
+	margin-top: 30px;
+	font-size: 13px;
+}
+.finish_div{
+	width: 100%;
+	height: 199px;
+	background: #241F57;
+	border-radius: 10px;
+	margin: auto;
+	margin-top: 100px;	
+}
+.info{
+	width: 100%;
+	height: 100px;
+	display: flex;
+	justify-content: space-around;
+	padding-top: 20px;
+    margin-left: -107px;
+}
+.pinorg{
+	width: 150px;
+	height: 27px;
+	margin-top: 30px;
+	color: white;
+}
+.pinorg p{
+	text-align: center;
+	font-weight: bold;
+}
+.tel_number{
+	width: 134px;
+	height: 60px;
+	margin-top: 13px;
+	color: white;
+}
+.first_number{
+	font-weight: bold;
+	cursor: pointer;
+}
+.second_number{
+	font-weight: bold;
+	margin-top: 10px;
+	cursor: pointer;
+}
+.ul{
+	margin-top: 13px;
+}
+.cont {
+	text-align: center;
+    margin-top: 55px;
+    color: white;
+    margin-left: 71px;
+}

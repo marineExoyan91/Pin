@@ -1,0 +1,375 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.glob_div{
+	width: 100%;
+	height: 77px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	position: fixed;
+	z-index: 9;
+	border-radius: 10px;
+	background: #241F57;
+}
+.foto{
+	width: 123px;
+	height: 90px;
+	margin-left: -40px;
+}
+.img{
+	width: 50px;
+	height: 50px;
+	margin-left: 48px;
+	margin-top: 9px;
+}
+.main{
+	width: 870px;
+	height: 30px;
+	margin-left: -109px;
+}
+.icon{
+	width: 174px;
+	height: 26px;
+	margin-left: -154px;
+}
+.erkir{
+	width: 100px;
+	height: 135px;
+	margin-top: 83px;	
+	margin-left: -104px;
+}
+#bn{
+	width: 100px;
+	height: 40px;
+}
+.country{
+	width: 90px;
+	height: 40px;
+	border-radius: 50px;
+	cursor: pointer;
+	background: #FFB47A;
+	border: 1px solid black;
+	display: flex;
+}
+.country:hover{
+	background: black;
+}
+.drosh{
+	width: 28px;
+	height: 17px;
+	margin-left: 9px;
+	margin-top: 11px;
+}
+.hay{
+	color: white;
+	margin-top: 11px;
+	margin-left: 5px;
+}
+#down{
+	color: white;
+	margin-left: 1px;
+	margin-top: 10px;
+	font-size: 18px;
+	cursor: pointer;
+}
+#none{
+	width: 100px;
+	height: 40px;
+	display: none;
+}
+.eng{
+	width: 90px;
+	height: 40px;
+	border-radius: 50px;
+	cursor: pointer;
+	background: #FFB47A;
+	border: 1px solid black;
+	display: flex;
+}
+.eng:hover{
+	background: black;
+}
+.flag{
+	width: 28px;
+	height: 17px;
+	margin-left: 9px;
+	margin-top: 11px;
+}
+.engl{
+	color: white;
+	margin-top: 11px;
+	margin-left: 7px;
+}
+#nerqev{
+	color: white;
+	margin-top: 10px;
+	font-size: 18px;
+	cursor: pointer;
+	margin-left: 1px;
+}
+#blo{
+	width: 100px;
+	height: 40px;
+	display: none;
+}
+.ru{
+	width: 90px;
+	height: 40px;
+	border-radius: 50px;
+	cursor: pointer;
+	background: #FFB47A;
+	border: 1px solid black;
+	display: flex;
+}
+.ru:hover{
+	background: black;
+}
+.dr{
+	width: 28px;
+	height: 17px;
+	margin-left: 9px;
+	margin-top: 10px;
+}
+.rus{
+	color: white;
+	margin-top: 11px;
+	margin-left: 7px;
+}
+#nerq{
+	color: white;
+	margin-top: 10px;
+	font-size: 18px;
+	cursor: pointer;
+	margin-left: 1px;
+}
+.pi{
+	color: #FFB47A;
+	font-size: 12px;
+	margin-top: -10px;
+	cursor: pointer;
+	margin-left: 55px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.qa{
+	text-decoration: none;
+	color: #FFB47A;
+}
+.ul{
+	display: flex;
+	list-style: none;
+}
+.orange a{
+	color: #FFA985;
+	text-decoration: none;
+	margin-left: 20px;
+	font-size: 15px;
+}
+.orange a:hover{
+	color: grey;
+}
+ul{
+	display: flex;
+	list-style: none;
+	margin-left: 12px;
+}
+li a{
+	color: #4960C0;
+	margin-left: 8px;
+	margin-top: 10px;
+	font-size: 15px;
+	color: white;
+}
+.contact_us{
+	height: 700px;
+	display: flex;
+}
+.address{
+	width: 47%;
+	height: 750px;
+	background: #FFB47A;
+	border-radius: 10px;
+}
+.address h2{
+	color: #241F57;
+	margin-left: 100px;
+	margin-top: 150px;
+	font-size: 35px;
+	font-weight: 400;
+}
+.direction{
+	margin-left: 100px;
+	margin-top: 30px;
+	font-size: 15px;
+}
+.mail{
+	margin-left: 100px;
+	margin-top: 13px;
+	font-size: 15px;
+}
+.telephone{
+	margin-left: 100px;
+	margin-top: 13px;
+	font-size: 15px;
+	cursor: pointer;
+}
+.time{
+	margin-left: 100px;
+	margin-top: 7px;
+	font-size: 15px;
+}
+.photo{
+	width: 53%;
+	height: 750px;
+	background: url(img/qa.webp);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	border-radius: 10px;
+}
+.input1{
+	width: 370px;
+	height: 46px;
+	display: flex;
+	margin-left: 100px;
+	margin-top: 50px;
+}
+.name{
+	width: 170px;
+	height: 40px;
+	border: 1px solid black;
+	background: transparent;
+	outline: none;
+	color: black;
+	padding-left: 20px;
+	border-radius: 10px;
+}
+::-webkit-input-placeholder{
+	color: black;
+}
+.last_name{
+	width: 170px;
+	height: 40px;
+	border: 1px solid black;
+	background: transparent;
+	outline: none;
+	color: black;
+	padding-left: 20px;
+	margin-left: 20px;
+	border-radius: 10px;
+}
+.input2{
+	width: 370px;
+	height: 46px;
+	display: flex;
+	margin-left: 100px;
+	margin-top: 30px;
+}
+.email{
+	width: 170px;
+	height: 40px;
+	border: 1px solid black;
+	background: transparent;
+	outline: none;
+	color: black;
+	padding-left: 20px;
+	border-radius: 10px;
+}
+::-webkit-input-placeholder{
+	color: black;
+}
+.phone{
+	width: 170px;
+	height: 40px;
+	border: 1px solid black;
+	background: transparent;
+	outline: none;
+	color: black;
+	padding-left: 20px;
+	margin-left: 20px;
+	border-radius: 10px;
+}
+textarea{
+	width: 361px;
+	height: 100px;
+	background: none;
+	margin-left: 100px;
+	margin-top: 30px;
+	border: 1px solid black;
+	outline: none;
+	padding-left: 10px;
+	padding-top: 10px;
+	color: black;
+	border-radius: 10px;
+}
+.send{
+	width: 220px;
+	height: 47px;
+	margin-left: 166px;
+	margin-top: 30px;
+	border-radius: 20px;
+	background: transparent;
+	cursor: pointer;
+	background: #241F57;
+	border: none;
+	text-align: center;
+	color: white;
+	font-size: 20px;
+}
+.send:hover{
+	background: #76522E;
+}
+.map{
+	margin-top: 50px;
+}
+.finish_div{
+	width: 100%;
+	height: 199px;
+	background: #241F57;
+	top: 100px;
+	border-radius: 15px;
+}
+.info{
+	width: 100%;
+	height: 100px;
+	display: flex;
+	justify-content: space-around;
+	padding-top: 20px;
+    margin-left: -107px;
+}
+.pinorg{
+	width: 150px;
+	height: 27px;
+	margin-top: 30px;
+}
+.pinorg p{
+	text-align: center;
+	font-weight: bold;
+	color: white;
+}
+.tel_number{
+	width: 134px;
+	height: 60px;
+	margin-top: 13px;
+}
+.first_number{
+	font-weight: bold;
+	cursor: pointer;
+	color: white;
+}
+.second_number{
+	font-weight: bold;
+	margin-top: 10px;
+	cursor: pointer;
+	color: white;
+}
+.ulli{
+	margin-top: 13px;
+}
+.cont{
+	text-align: center;
+    margin-top: 55px;
+    color: white;
+    margin-left: 71px;
+}

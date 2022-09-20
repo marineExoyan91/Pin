@@ -1,0 +1,1612 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.glob_div{
+	width: 100%;
+	height: 77px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	position: fixed;
+	z-index: 9;
+	border-radius: 10px;
+	background: #241F57;
+}
+.foto{
+	width: 123px;
+	height: 90px;
+	margin-left: -40px;
+}
+.img{
+	width: 50px;
+	height: 50px;
+	margin-left: 48px;
+	margin-top: 9px;
+}
+.main{
+	width: 870px;
+	height: 30px;
+	margin-left: -109px;
+	margin-top: -30px;
+}
+.icon{
+	width: 174px;
+	height: 26px;
+	margin-left: -154px;
+}
+.erkir{
+	width: 100px;
+	height: 135px;
+	margin-top: 83px;	
+	margin-left: -104px;
+}
+#bn{
+	width: 100px;
+	height: 40px;
+}
+.country{
+	width: 90px;
+	height: 40px;
+	border-radius: 50px;
+	cursor: pointer;
+	background: #FFB47A;
+	border: 1px solid black;
+	display: flex;
+}
+.country:hover{
+	background: black;
+}
+.drosh{
+	width: 28px;
+	height: 17px;
+	margin-left: 9px;
+	margin-top: 11px;
+}
+.hay{
+	color: white;
+	margin-top: 11px;
+	margin-left: 5px;
+}
+#down{
+	color: white;
+	margin-left: 1px;
+	margin-top: 10px;
+	font-size: 18px;
+	cursor: pointer;
+}
+#none{
+	width: 100px;
+	height: 40px;
+	display: none;
+}
+.eng{
+	width: 90px;
+	height: 40px;
+	border-radius: 50px;
+	cursor: pointer;
+	background: #FFB47A;
+	border: 1px solid black;
+	display: flex;
+}
+.eng:hover{
+	background: black;
+}
+.flag{
+	width: 28px;
+	height: 17px;
+	margin-left: 9px;
+	margin-top: 11px;
+}
+.engl{
+	color: white;
+	margin-top: 11px;
+	margin-left: 7px;
+}
+#nerqev{
+	color: white;
+	margin-top: 10px;
+	font-size: 18px;
+	cursor: pointer;
+	margin-left: 1px;
+}
+#blo{
+	width: 100px;
+	height: 40px;
+	display: none;
+}
+.ru{
+	width: 90px;
+	height: 40px;
+	border-radius: 50px;
+	cursor: pointer;
+	background: #FFB47A;
+	border: 1px solid black;
+	display: flex;
+}
+.ru:hover{
+	background: black;
+}
+.dr{
+	width: 28px;
+	height: 17px;
+	margin-left: 9px;
+	margin-top: 10px;
+}
+.rus{
+	color: white;
+	margin-top: 11px;
+	margin-left: 7px;
+}
+#nerq{
+	color: white;
+	margin-top: 10px;
+	font-size: 18px;
+	cursor: pointer;
+	margin-left: 1px;
+}
+.pi{
+	color: #FFB47A;
+	font-size: 12px;
+	margin-top: -10px;
+	cursor: pointer;
+	margin-left: 55px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.qa{
+	text-decoration: none;
+	color: #FFB47A;
+}
+.list{
+	text-decoration: none;
+	color: white;
+}
+.ul{
+	display: flex;
+	list-style: none;
+}
+.orange a{
+	color: #FFA985;
+	text-decoration: none;
+	margin-left: 20px;
+	font-size: 15px;
+}
+.orange a:hover{
+	color: grey;
+}
+ul{
+	display: flex;
+	list-style: none;
+	margin-left: 12px;
+}
+li a{
+	color: #4960C0;
+	margin-left: 8px;
+	margin-top: 10px;
+	font-size: 15px;
+	color: white;
+}
+.background{
+	width: 100%;
+	height: auto;
+	position: absolute;
+	margin-top: 73px;
+	background: url(img/notebook.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	border-radius: 10px;
+}
+.blue_div{
+	width: 80%;
+	height: 1030px;
+	margin: auto;
+	margin-top: 70px;
+	background: #241F57;
+	border-radius: 13px;
+}
+.one{
+	width: 100%;
+	height: 150px;
+}
+.one p{
+	text-align: center;
+	font-size: 32px;
+	padding-top: 53px;
+	color: white;
+}
+.two{
+	width: 95%;
+	height: 110px;
+	border: 1px solid white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-left: 10px;
+	border-right: 10px;
+	border-top: 10px;
+	margin-top: 40px;
+	margin: auto;
+}
+.one_day{
+	width: 87px;
+	height: 82px;
+	border-radius: 10px;
+	margin-left: 25px;
+	background: #FFB47A;
+	padding-top: 10px;
+	cursor: pointer;
+}
+.one_day:hover{
+	background: grey;
+}
+.monday{
+	text-align: center;
+	padding-top: 20px;
+	font-weight: 400;
+	font-size: 13px;
+}
+.two_day{
+	width: 87px;
+	height: 82px;
+	border-radius: 10px;
+	margin-left: 20px;
+	background: #FFB47A;
+	padding-top: 10px;
+	cursor: pointer;
+}
+.two_day:hover{
+	background: grey;
+}
+.tuesday{
+	text-align: center;
+	padding-top: 20px;
+	font-weight: 400;
+	font-size: 13px;
+}
+.three_day{
+	width: 87px;
+	height: 82px;
+	border-radius: 10px;
+	margin-left: 20px;
+	background: #FFB47A;
+	padding-top: 10px;
+	cursor: pointer;
+}
+.three_day:hover{
+	background: grey;
+}
+.wednesday{
+	text-align: center;
+	padding-top: 20px;
+	font-weight: 400;
+	font-size: 13px;
+}
+.four_day{
+	width: 87px;
+	height: 82px;
+	border-radius: 10px;
+	margin-left: 20px;
+	background: #FFB47A;
+	padding-top: 10px;
+	cursor: pointer;
+}
+.four_day:hover{
+	background: grey;
+}
+.thusday{
+	text-align: center;
+	padding-top: 20px;
+	font-weight: 400;
+	font-size: 13px;
+}
+.five_day{
+	width: 87px;
+	height: 82px;
+	border-radius: 10px;
+	margin-left: 20px;
+	background: #FFB47A;
+	padding-top: 10px;
+	cursor: pointer;
+}
+.five_day:hover{
+	background: grey;
+}
+.friday{
+	text-align: center;
+	padding-top: 20px;
+	font-weight: 400;
+	font-size: 13px;
+}
+.six_day{
+	width: 87px;
+	height: 82px;
+	border-radius: 10px;
+	margin-left: 20px;
+	background: #FFB47A;
+	padding-top: 10px;
+	cursor: pointer;
+}
+.six_day:hover{
+	background: grey;
+}
+.saturday{
+	text-align: center;
+	padding-top: 20px;
+	font-weight: 400;
+	font-size: 13px;
+}
+.saturday:hover{
+	background: grey;
+}
+#nothing{
+	width: 90%;
+	height: 450px;
+	margin: auto;
+	/*display: none;*/
+}
+#monday_div{
+	width: 95%;
+	height: 140px;
+	border: 1px solid white;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border-left: 10px;
+	border-top: 10px;
+	border-right: 10px;
+	margin: auto;
+}
+.lesson_first{
+	width: 470px;
+	height: 100px;
+	display: flex;
+}
+.lesson_clock{
+	width: 105px;
+	height: 77px;
+}
+.lesson_clock p{
+	color: wheat;
+	margin-top: 23px;
+	margin-left: 20px;
+}
+.lesson_clock h5{
+	color: gray;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.lasson_name{
+	width: 300px;
+	height: 77px;
+}
+.lasson_name p{
+	color: wheat;
+	margin-top: 23px;
+	margin-left: 20px;
+	font-size: 18px;
+	width: 271px;
+}
+.lasson_name h5{
+	color: gray;
+	text-align: center;
+	margin-top: 10px;
+}
+.button{
+	width: 23%;
+	height: 60px;
+	margin-top: 17px;
+}
+.register{
+	width: 180px;
+	height: 43px;
+	border-radius: 20px;
+	background: transparent;
+	background: #FFB47A;
+	border: none;
+	text-align: center;
+	color: white;
+	cursor: pointer;
+	margin-top: -4px;
+}
+.register:hover{
+	background: #241F57;
+	border: 1px solid white;
+}
+#monday_div1{
+	width: 95%;
+	height: 140px;
+	border: 1px solid white;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border-left: 10px;
+	border-top: 10px;
+	border-right: 10px;
+	margin: auto;
+}
+.lesson_first1{
+	width: 470px;
+	height: 100px;
+	display: flex;
+}
+.lesson_clock1{
+	width: 105px;
+	height: 70px;
+}
+.lesson_clock1 p{
+	color: wheat;
+	margin-top: 23px;
+	margin-left: 20px;
+}
+.lesson_clock1 h5{
+	color: gray;
+	text-align: center;
+	margin-top: 10px;
+}
+.lasson_name1{
+	width: 300px;
+	height: 70px;
+}
+.lasson_name1 p{
+	color: wheat;
+	margin-top: 23px;
+	margin-left: 20px;
+	font-size: 18px;
+	width: 271px;
+}
+.lasson_name1 h5{
+	color: gray;
+	text-align: center;
+	margin-top: 10px;
+}
+.button1{
+	width: 23%;
+	height: 60px;
+	margin-top: 17px;
+}
+.register1{
+	width: 180px;
+	height: 43px;
+	border-radius: 20px;
+	background: transparent;
+	background: #FFB47A;
+	border: none;
+	text-align: center;
+	color: white;
+	cursor: pointer;
+	margin-top: -4px;
+}
+.register1:hover{
+	background: #241F57;
+	border: 1px solid white;
+}
+#monday_div2{
+	width: 95%;
+	height: 140px;
+	border: 1px solid white;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border-left: 10px;
+	border-top: 10px;
+	border-right: 10px;
+	margin: auto;
+}
+.lesson_first2{
+	width: 470px;
+	height: 100px;
+	display: flex;
+}
+.lesson_clock2{
+	width: 105px;
+	height: 70px;
+}
+.lesson_clock2 p{
+	color: wheat;
+	margin-top: 23px;
+	margin-left: 20px;
+}
+.lesson_clock2 h5{
+	color: gray;
+	text-align: center;
+	margin-top: 10px;
+}
+.lasson_name2{
+	width: 300px;
+	height: 70px;
+}
+.lasson_name2 p{
+	color: wheat;
+	margin-top: 23px;
+	margin-left: 20px;
+	font-size: 18px;
+	width: 271px;
+}
+.lasson_name2 h5{
+	color: gray;
+	text-align: center;
+	margin-top: 10px;
+}
+.button2{
+	width: 23%;
+	height: 60px;
+	margin-top: 17px;
+}
+.register2{
+	width: 180px;
+	height: 43px;
+	border-radius: 20px;
+	background: transparent;
+	background: #FFB47A;
+	border: none;
+	text-align: center;
+	color: white;
+	cursor: pointer;
+	margin-top: -4px;
+}
+.register2:hover{
+	background: #241F57;
+	border: 1px solid white;
+}
+#nothing1{
+	width: 90%;
+	height: 450px;
+	margin: auto;
+	display: none;
+}
+#tuesday_div{
+	width: 95%;
+	height: 140px;
+	border: 1px solid white;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border-left: 10px;
+	border-top: 10px;
+	border-right: 10px;
+	margin: auto;
+}
+.lesson_tuesday{
+	width: 470px;
+	height: 100px;
+	display: flex;
+}
+.clock_tuesday{
+	width: 105px;
+	height: 70px;
+}
+.clock_tuesday p{
+	color: wheat;
+	margin-top: 23px;
+	margin-left: 20px;
+}
+.clock_tuesday h5{
+	color: grey;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.name_tuesday{
+	width: 300px;
+	height: 70px;
+}
+.name_tuesday p{
+	color: wheat;
+	margin-top: 23px;
+	margin-left: 20px;
+	font-size: 18px;
+	width: 271px;
+}
+.name_tuesday h5{
+	color: grey;
+	text-align: center;
+	margin-top: 10px;
+}
+.button3{
+	width: 23%;
+	height: 60px;
+	margin-top: 17px;
+}
+.register3{
+	width: 180px;
+	height: 43px;
+	border-radius: 20px;
+	background: transparent;
+	background: #FFB47A;
+	border: none;
+	text-align: center;
+	color: white;
+	cursor: pointer;
+	margin-top: -4px;
+}
+.register3:hover{
+	background: #241F57;
+	border: 1px solid white;
+}
+#tuesday_div1{
+	width: 95%;
+	height: 140px;
+	border: 1px solid white;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border-left: 10px;
+	border-top: 10px;
+	border-right: 10px;
+	margin: auto;
+}
+.lesson_tuesday1{
+	width: 470px;
+	height: 100px;
+	display: flex;
+}
+.clock_tuesday1{
+	width: 105px;
+	height: 70px;
+}
+.clock_tuesday1 p{
+	color: wheat;
+	margin-top: 23px;
+	margin-left: 20px;
+}
+.clock_tuesday1 h5{
+	color: grey;
+	text-align: center;
+	margin-top: 10px;
+}
+.name_tuesday1{
+	width: 300px;
+	height: 70px;
+}
+.name_tuesday1 p{
+	color: wheat;
+	margin-top: 23px;
+	margin-left: 20px;
+	font-size: 18px;
+	width: 271px;
+}
+.name_tuesday1 h5{
+	color: grey;
+	text-align: center;
+	margin-top: 10px;
+}
+.button4{
+	width: 23%;
+	height: 60px;
+	margin-top: 17px;
+}
+.register4{
+	width: 180px;
+	height: 43px;
+	border-radius: 20px;
+	background: transparent;
+	background: #FFB47A;
+	border: none;
+	text-align: center;
+	color: white;
+	cursor: pointer;
+	margin-top: -4px;
+}
+.register4:hover{
+	background: #241F57;
+	border: 1px solid white;
+}
+#tuesday_div2{
+	width: 95%;
+	height: 140px;
+	border: 1px solid white;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border-left: 10px;
+	border-top: 10px;
+	border-right: 10px;
+	margin: auto;
+}
+.lesson_tuesday2{
+	width: 470px;
+	height: 100px;
+	display: flex;
+}
+.clock_tuesday2{
+	width: 105px;
+	height: 70px;
+}
+.clock_tuesday2 p{
+	color: wheat;
+	margin-top: 23px;
+	margin-left: 20px;
+}
+.clock_tuesday2 h5{
+	color: grey;
+	text-align: center;
+	margin-top: 10px;
+}
+.name_tuesday2{
+	width: 300px;
+	height: 70px;
+}
+.name_tuesday2 p{
+	color: wheat;
+	margin-top: 23px;
+	margin-left: 20px;
+	font-size: 18px;
+	width: 271px;
+}
+.name_tuesday2 h5{
+	color: grey;
+	text-align: center;
+	margin-top: 10px;
+}
+.button5{
+	width: 23%;
+	height: 60px;
+	margin-top: 17px;
+}
+.register5{
+	width: 180px;
+	height: 43px;
+	border-radius: 20px;
+	background: transparent;
+	background: #FFB47A;
+	border: none;
+	text-align: center;
+	color: white;
+	cursor: pointer;
+	margin-top: -4px;
+}
+.register5:hover{
+	background: #241F57;
+	border: 1px solid white;
+}
+#tuesday_div3{
+	width: 95%;
+	height: 140px;
+	border: 1px solid white;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border-left: 10px;
+	border-top: 10px;
+	border-right: 10px;
+	margin: auto;
+}
+.lesson_tuesday3{
+	width: 470px;
+	height: 100px;
+	display: flex;
+}
+.clock_tuesday3{
+	width: 105px;
+	height: 70px;
+}
+.clock_tuesday3 p{
+	color: wheat;
+	margin-top: 23px;
+	margin-left: 20px;
+}
+.clock_tuesday3 h5{
+	color: grey;
+	text-align: center;
+	margin-top: 10px;
+}
+.name_tuesday3{
+	width: 300px;
+	height: 70px;
+	margin-left: 40px;
+}
+.name_tuesday3 p{
+	color: wheat;
+	margin-top: 23px;
+	margin-left: 20px;
+	font-size: 18px;
+	width: 271px;
+}
+.name_tuesday3 h5{
+	color: grey;
+	margin-left: 67px;
+	margin-top: 10px;
+}
+.button6{
+	width: 23%;
+	height: 60px;
+	margin-top: 17px;
+}
+.register6{
+	width: 180px;
+	height: 43px;
+	border-radius: 20px;
+	background: transparent;
+	background: #FFB47A;
+	border: none;
+	text-align: center;
+	color: white;
+	cursor: pointer;
+	margin-top: -4px;
+}
+.register6:hover{
+	background: #241F57;
+	border: 1px solid white;
+}
+#nothing2{
+	width: 90%;
+	height: 470px;
+	margin: auto;
+	display: none;
+}
+#wednesday_div{
+	width: 95%;
+	height: 140px;
+	border: 1px solid white;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border-left: 10px;
+	border-top: 10px;
+	border-right: 10px;
+	margin: auto;
+}
+.lesson_wednesday{
+	width: 470px;
+	height: 100px;
+	display: flex;
+}
+.clock_wednesday{
+	width: 105px;
+	height: 70px;
+}
+.clock_wednesday p{
+	color: wheat;
+	margin-top: 23px;
+	margin-left: 20px;
+}
+.clock_wednesday h5{
+	color: grey;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.name_wednesday{
+	width: 300px;
+	height: 70px;
+}
+.name_wednesday p{
+	color: wheat;
+	margin-top: 23px;
+	margin-left: 20px;
+	font-size: 18px;
+	width: 271px;
+}
+.name_wednesday h5{
+	color: grey;
+	text-align: center;
+	margin-top: 10px;
+}
+.button7{
+	width: 23%;
+	height: 60px;
+	margin-top: 17px;
+}
+.register7{
+	width: 180px;
+	height: 43px;
+	border-radius: 20px;
+	background: transparent;
+	background: #FFB47A;
+	border: none;
+	text-align: center;
+	color: white;
+	cursor: pointer;
+	margin-top: -4px;
+}
+.register7:hover{
+	background: #241F57;
+	border: 1px solid white;
+}
+#wednesday_div1{
+	width: 95%;
+	height: 140px;
+	border: 1px solid white;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border-left: 10px;
+	border-top: 10px;
+	border-right: 10px;
+	margin: auto;
+}
+.lesson_wednesday1{
+	width: 470px;
+	height: 100px;
+	display: flex;
+}
+.clock_wednesday1{
+	width: 105px;
+	height: 70px;
+}
+.clock_wednesday1 p{
+	color: wheat;
+	margin-top: 23px;
+	margin-left: 20px;
+}
+.clock_wednesday1 h5{
+	color: grey;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.name_wednesday1{
+	width: 300px;
+	height: 70px;
+}
+.name_wednesday1 p{
+	color: wheat;
+	margin-top: 31px;
+	margin-left: 20px;
+	font-size: 18px;
+	width: 271px;
+}
+.name_wednesday1 h5{
+	color: grey;
+	text-align: center;
+	margin-top: 10px;
+}
+.button8{
+	width: 23%;
+	height: 60px;
+	margin-top: 17px;
+}
+.register8{
+	width: 180px;
+	height: 43px;
+	border-radius: 20px;
+	background: transparent;
+	background: #FFB47A;
+	border: none;
+	text-align: center;
+	color: white;
+	cursor: pointer;
+	margin-top: -4px;
+}
+.register8:hover{
+	background: #241F57;
+	border: 1px solid white;
+}
+#nothing3{
+	width: 90%;
+	height: 450px;
+	margin: auto;
+	display: none;
+}
+#thusday_div{
+	width: 95%;
+	height: 140px;
+	border: 1px solid white;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border-left: 10px;
+	border-top: 10px;
+	border-right: 10px;
+	margin: auto;
+}
+.lesson_thusday{
+	width: 470px;
+	height: 100px;
+	display: flex;
+}
+.clock_thusday{
+	width: 105px;
+	height: 70px;
+}
+.clock_thusday p{
+	color: wheat;
+	margin-top: 23px;
+	margin-left: 20px;
+}
+.clock_thusday h5{
+	color: grey;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.name_thusday{
+	width: 300px;
+	height: 70px;
+}
+.name_thusday p{
+	color: wheat;
+	margin-top: 23px;
+	text-align: center;
+	font-size: 18px;
+	width: 271px;
+}
+.name_thusday h5{
+	color: grey;
+	text-align: center;
+	margin-top: 10px
+}
+.button9{
+	width: 23%;
+	height: 60px;
+	margin-top: 17px;
+}
+.register9{
+	width: 180px;
+	height: 43px;
+	border-radius: 20px;
+	background: transparent;
+	background: #FFB47A;
+	border: none;
+	text-align: center;
+	color: white;
+	cursor: pointer;
+	margin-top: -4px;
+}
+.register9:hover{
+	background: #241F57;
+	border: 1px solid white;
+}
+#nothing4{
+	width: 90%;
+	height: 450px;
+	margin: auto;
+	display: none;
+}
+#friday_div{
+	width: 95%;
+	height: 140px;
+	border: 1px solid white;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border-left: 10px;
+	border-top: 10px;
+	border-right: 10px;
+	margin: auto;
+}
+.lesson_friday{
+	width: 470px;
+	height: 100px;
+	display: flex;
+}
+.clock_friday{
+	width: 105px;
+	height: 70px;
+}
+.clock_friday p{
+	color: wheat;
+	margin-top: 23px;
+	margin-left: 20px;
+}
+.clock_friday h5{
+	color: grey;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.name_friday{
+	width: 300px;
+	height: 70px;
+}
+.name_friday p{
+	color: wheat;
+	margin-top: 23px;
+	margin-left: 20px;
+	font-size: 18px;
+	width: 271px;
+}
+.name_friday h5{
+	color: grey;
+	text-align: center;
+	margin-top: 10px;
+}
+.button10{
+	width: 23%;
+	height: 60px;
+	margin-top: 17px;
+}
+.register10{
+	width: 180px;
+	height: 43px;
+	border-radius: 20px;
+	background: transparent;
+	background: #FFB47A;
+	border: none;
+	text-align: center;
+	color: white;
+	cursor: pointer;
+	margin-top: -4px;
+}
+.register10:hover{
+	background: #241F57;
+	border: 1px solid white;
+}
+#friday_div1{
+	width: 95%;
+	height: 140px;
+	border: 1px solid white;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border-left: 10px;
+	border-top: 10px;
+	border-right: 10px;
+	margin: auto;
+}
+.lesson_friday1{
+	width: 470px;
+	height: 100px;
+	display: flex;
+}
+.clock_friday1{
+	width: 105px;
+	height: 70px;
+}
+.clock_friday1 p{
+	color: wheat;
+	margin-top: 23px;
+	margin-left: 20px;
+}
+.clock_friday1 h5{
+	color: grey;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.name_friday1{
+	width: 300px;
+	height: 70px;
+}
+.name_friday1 p{
+	color: wheat;
+	margin-top: 23px;
+	margin-left: 20px;
+	font-size: 18px;
+	width: 271px;
+}
+.name_friday1 h5{
+	color: grey;
+	text-align: center;
+	margin-top: 10px;
+}
+.button11{
+	width: 23%;
+	height: 60px;
+	margin-top: 17px;
+}
+.register11{
+	width: 180px;
+	height: 43px;
+	border-radius: 20px;
+	background: transparent;
+	background: #FFB47A;
+	border: none;
+	text-align: center;
+	color: white;
+	cursor: pointer;
+	margin-top: -4px;
+}
+.register11:hover{
+	background: #241F57;
+	border: 1px solid white;
+}
+#nothing5{
+	width: 90%;
+	height: 750px;
+	margin: auto;
+	display: none;
+}
+#saturday_div{
+	width: 95%;
+	height: 140px;
+	border: 1px solid white;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border-left: 10px;
+	border-top: 10px;
+	border-right: 10px;
+	margin: auto;
+}
+.lesson_saturday{
+	width: 470px;
+	height: 100px;
+	display: flex;
+}
+.clock_saturday{
+	width: 105px;
+	height: 70px;
+}
+.clock_saturday p{
+	color: wheat;
+	margin-top: 23px;
+	margin-left: 20px;
+}
+.clock_saturday h5{
+	color: grey;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.name_saturday{
+	width: 300px;
+	height: 70px;
+}
+.name_saturday p{
+	color: wheat;
+	margin-top: 23px;
+	margin-left: 20px;
+	font-size: 18px;
+	width: 271px;
+}
+.name_saturday h5{
+	color: grey;
+	text-align: center;
+	margin-top: 10px;
+}
+.button12{
+	width: 23%;
+	height: 60px;
+	margin-top: 17px;
+}
+.register12{
+	width: 180px;
+	height: 43px;
+	border-radius: 20px;
+	background: transparent;
+	background: #FFB47A;
+	border: none;
+	text-align: center;
+	color: white;
+	cursor: pointer;
+	margin-top: -4px;
+}
+.register12:hover{
+	background: #241F57;
+	border: 1px solid white;
+}
+#saturday_div1{
+	width: 95%;
+	height: 140px;
+	border: 1px solid white;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border-left: 10px;
+	border-top: 10px;
+	border-right: 10px;
+	margin: auto;
+}
+.lesson_saturday1{
+	width: 470px;
+	height: 100px;
+	display: flex;
+}
+.clock_saturday1{
+	width: 105px;
+	height: 70px;
+}
+.clock_saturday1 p{
+	color: wheat;
+	margin-top: 23px;
+	margin-left: 20px;
+}
+.clock_saturday1 h5{
+	color: grey;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+.name_saturday1{
+	width: 300px;
+	height: 70px;
+}
+.name_saturday1 p{
+	color: wheat;
+	margin-top: 23px;
+	margin-left: 20px;
+	font-size: 18px;
+	width: 271px;
+}
+.name_saturday1 h5{
+	color: grey;
+	text-align: center;
+	margin-top: 10px;
+}
+.button13{
+	width: 23%;
+	height: 60px;
+	margin-top: 17px;
+}
+.register13{
+	width: 180px;
+	height: 43px;
+	border-radius: 20px;
+	background: transparent;
+	background: #FFB47A;
+	border: none;
+	text-align: center;
+	color: white;
+	cursor: pointer;
+	margin-top: -4px;
+}
+.register13:hover{
+	background: #241F57;
+	border: 1px solid white;
+}
+#saturday_div2{
+	width: 95%;
+	height: 140px;
+	border: 1px solid white;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border-left: 10px;
+	border-top: 10px;
+	border-right: 10px;
+	margin: auto;
+}
+.lesson_saturday2{
+	width: 470px;
+	height: 100px;
+	display: flex;
+}
+.clock_saturday2{
+	width: 105px;
+	height: 70px;
+}
+.clock_saturday2 p{
+	color: wheat;
+	margin-top: 23px;
+	margin-left: 20px;
+}
+.clock_saturday2 h5{
+	color: grey;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.name_saturday2{
+	width: 300px;
+	height: 70px;
+}
+.name_saturday2 p{
+	color: wheat;
+	margin-top: 23px;
+	margin-left: 20px;
+	font-size: 18px;
+	width: 271px;
+}
+.name_saturday2 h5{
+	color: grey;
+	text-align: center;
+	margin-top: 10px;
+}
+.button14{
+	width: 23%;
+	height: 60px;
+	margin-top: 17px;
+}
+.register14{
+	width: 180px;
+	height: 43px;
+	border-radius: 20px;
+	background: transparent;
+	background: #FFB47A;
+	border: none;
+	text-align: center;
+	color: white;
+	cursor: pointer;
+	margin-top: -4px;
+}
+.register14:hover{
+	background: #241F57;
+	border: 1px solid white;
+}
+#saturday_div3{
+	width: 95%;
+	height: 140px;
+	border: 1px solid white;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border-left: 10px;
+	border-top: 10px;
+	border-right: 10px;
+	margin: auto;
+}
+.lesson_saturday3{
+	width: 470px;
+	height: 100px;
+	display: flex;
+}
+.clock_saturday3{
+	width: 105px;
+	height: 70px;
+}
+.clock_saturday3 p{
+	color: wheat;
+	margin-top: 23px;
+	margin-left: 20px;
+}
+.clock_saturday3 h5{
+	color: grey;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.name_saturday3{
+	width: 300px;
+	height: 70px;
+}
+.name_saturday3 p{
+	color: wheat;
+	margin-top: 23px;
+	margin-left: 20px;
+	font-size: 18px;
+	width: 271px;
+}
+.name_saturday3 h5{
+	color: grey;
+	text-align: center;
+	margin-top: 10px;
+}
+.button15{
+	width: 23%;
+	height: 60px;
+	margin-top: 17px;
+}
+.register15{
+	width: 180px;
+	height: 43px;
+	border-radius: 20px;
+	background: transparent;
+	background: #FFB47A;
+	border: none;
+	text-align: center;
+	color: white;
+	cursor: pointer;
+	margin-top: -4px;
+}
+.register15:hover{
+	background: #241F57;
+	border: 1px solid white;
+}
+#saturday_div4{
+	width: 95%;
+	height: 140px;
+	border: 1px solid white;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border-left: 10px;
+	border-top: 10px;
+	border-right: 10px;
+	margin: auto;
+}
+.lesson_saturday4{
+	width: 470px;
+	height: 100px;
+	display: flex;
+}
+.clock_saturday4{
+	width: 105px;
+	height: 70px;
+}
+.clock_saturday4 p{
+	color: wheat;
+	margin-top: 23px;
+	margin-left: 20px;
+}
+.clock_saturday4 h5{
+	color: grey;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.name_saturday4{
+	width: 300px;
+	height: 70px;
+}
+.name_saturday4 p{
+	color: wheat;
+	margin-top: 23px;
+	text-align: center;
+	font-size: 18px;
+	width: 271px;
+}
+.name_saturday4 h5{
+	color: grey;
+	text-align: center;
+	margin-top: 10px;
+}
+.button16{
+	width: 23%;
+	height: 60px;
+	margin-top: 17px;
+}
+.register16{
+	width: 180px;
+	height: 43px;
+	border-radius: 20px;
+	background: transparent;
+	background: #FFB47A;
+	border: none;
+	text-align: center;
+	color: white;
+	cursor: pointer;
+	margin-top: -4px;
+}
+.register16:hover{
+	background: #241F57;
+	border: 1px solid white;
+}
+.av{
+	text-decoration: none;
+	color: white;
+}
+.av2{
+	text-decoration: none;
+	color: black;
+}
+.pin{
+	text-decoration: none;
+	color: #FFB47A;
+}
+.kap{
+	width: 77%;
+	height: 55px;
+	border: 1px solid black;
+	background: #1E286E;
+	margin: auto;
+	margin-top: 10px;
+	border-radius: 10px;
+}
+.kap p{
+	margin-top: 18px;
+	margin-left: 10px;
+	color: white;
+}
+.finish_div{
+	width: 100%;
+	height: 199px;
+	background: #241F57;
+	border-radius: 10px;
+	margin: auto;
+	margin-top: 100px;	
+}
+.info{
+	width: 100%;
+	height: 100px;
+	display: flex;
+	justify-content: space-around;
+	padding-top: 20px;
+	margin-left: -107px;
+}
+.pinorg{
+	width: 150px;
+	height: 27px;
+	margin-top: 30px;
+}
+.pinorg p{
+	text-align: center;
+	font-weight: bold;
+	color: white;
+}
+.tel_number{
+	width: 134px;
+	height: 60px;
+	margin-top: 13px;
+	color: white;
+}
+.first_number{
+	font-weight: bold;
+	cursor: pointer;
+}
+.second_number{
+	font-weight: bold;
+	margin-top: 10px;
+	cursor: pointer;
+}
+.ul{
+	margin-top: 16px;
+}
+.cont{
+	text-align: center;
+	margin-top: 55px;
+	color: white;
+	margin-left: 71px;
+}
